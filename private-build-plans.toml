@@ -104,7 +104,37 @@ f = "flat-hook-tailed"
 eszet = "sulzbacher-tailed-serifless"
 
 [buildPlans.iosevka-round.ligations]
-  inherits = "dlig"
+inherits = "dlig"
+
+[buildPlans.iosevka-round.widths.normal]
+shape = 500
+menu  = 5
+css   = "normal"
+
+[buildPlans.iosevka-round.weights.light]
+shape = 300
+menu  = 300
+css   = 300
+
+[buildPlans.iosevka-round.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.iosevka-round.weights.medium]
+shape = 500
+menu  = 500
+css   = 500
+
+[buildPlans.iosevka-round.weights.semibold]
+shape = 600
+menu  = 600
+css   = 600
+
+[buildPlans.iosevka-round.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
 
 [buildPlans.iosevkara]
 family = "iosevkara"
@@ -246,5 +276,35 @@ w = "cursive-serifed"
 z = "cursive"
 five = "oblique-flat"
 
-  [buildPlans.iosevkara.ligations]
-  inherits = "dlig"
+[buildPlans.iosevkara.ligations]
+inherits = "dlig"
+
+[buildPlans.iosevkara.widths.normal]
+shape = 500
+menu  = 5
+css   = "normal"
+
+[buildPlans.iosevkara.weights.light]
+shape = 300
+menu  = 300
+css   = 300
+
+[buildPlans.iosevkara.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.iosevkara.weights.medium]
+shape = 500
+menu  = 500
+css   = 500
+
+[buildPlans.iosevkara.weights.semibold]
+shape = 600
+menu  = 600
+css   = 600
+
+[buildPlans.iosevkara.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
